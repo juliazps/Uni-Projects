@@ -1,7 +1,5 @@
 # Análise e Projeto de Algoritmos
 # AC2: Ciência da Computação
-#
-# Email Impacta: julia.peres@aluno.faculdadeimpacta.com.br
 
 
 """
