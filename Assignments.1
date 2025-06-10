@@ -1,0 +1,44 @@
+# Análise e Projeto de Algoritmos
+# AC1: Ciência da Computação
+
+def somatorio(n):
+	if n==0:
+		return n
+	else:
+		return n + somatorio(n-1)
+	pass
+
+
+def potencia_de_2(n):
+	if n < 1:
+		return False
+	elif n == 1:
+		return True
+	elif n % 2 != 0:
+		return False
+	else:
+		return potencia_de_2(n // 2)
+
+
+def qtd_digitos(n):
+	if (n>=1):
+		return 1+qtd_digitos(n//10)
+	else:
+		return 0
+	pass
+
+
+def soma_digitos(n):
+	if n==0:
+		return n
+	else:
+		return n%10 + soma_digitos(n//10)
+	pass
+
+
+def soma_lista(lista, i):
+	if len(lista)==i:
+		return 0
+	else:
+		return lista[i]+soma_lista(lista,i+1)
+	pass
