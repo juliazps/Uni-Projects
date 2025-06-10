@@ -1,9 +1,5 @@
 # Análise e Projeto de Algoritmos
 # AC3: Ciência da Computação
-#
-# Email Impacta: _________@aluno.faculdadeimpacta.com.br
-# Email Impacta: _________@aluno.faculdadeimpacta.com.br
-# Email Impacta: _________@aluno.faculdadeimpacta.com.br
 
 
 def seleciona_aulas(horarios_de_inicio, horarios_de_fim):
